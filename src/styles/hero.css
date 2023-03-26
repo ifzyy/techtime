@@ -1,0 +1,424 @@
+@media (min-width: 768px) and (max-width:1023px) {
+    .mobile-arrow {
+        display: none;
+    }
+
+    .mobile-hero-enrol {
+        display: none;
+    }
+
+    .hero {
+        display: grid;
+        grid-template-columns: minmax(auto, 50%) auto;
+        background: #004DB3;
+        padding: 30px 0 0 0;
+    }
+
+    .hero__one {
+        width: inherit;
+        padding: 10% 5% 10% 10%;
+        position: relative;
+    }
+
+    .hero__one__intro {
+        font-family: 'Clash Display', sans-serif;
+        font-size: 40px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .hero__one__support {
+        font-family: 'Satoshi', sans-serif;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #E7E7E7;
+    }
+
+    .actions {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .get__started {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        background-color: transparent;
+        padding: 5px 10px;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        font-family: 'Satoshi', sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .vector {
+        position: absolute;
+        left: 13%;
+        top: 0;
+    }
+
+    .yellow-round-two {
+        position: absolute;
+        right: 30%;
+        top: 0;
+    }
+
+    .zigzag {
+        position: absolute;
+        left: -8%;
+        top: 30%;
+    }
+
+    .arrow {
+        position: absolute;
+        right: -18%;
+        top: 54%;
+        width: 100px;
+    }
+
+    .hero__two {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-image {
+        width: 80%;
+    }
+
+    .bulb {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 5%;
+        top: 3%;
+    }
+
+    .green-big-round {
+        position: absolute;
+        left: 17%;
+        top: 35%;
+    }
+
+    .figma {
+        position: absolute;
+        width: 80px;
+        left: 10%;
+        top: 55%;
+    }
+
+    .yellow-round {
+        position: absolute;
+        left: 16%;
+        bottom: 12.55%;
+    }
+
+    .visual-studio {
+        position: absolute;
+        width: 75px;
+        right: 17%;
+        top: 78.67px;
+    }
+
+    .orange-angle {
+        position: absolute;
+        width: 30px;
+        right: 18%;
+        top: 37.28%;
+    }
+
+    .wordpress {
+        position: absolute;
+        width: 84.24px;
+        right: 17%;
+        bottom: 0;
+    }
+
+    .hero__footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        gap: 30px;
+        background: #CCDBF0;
+        padding: 30px;
+    }
+
+    .hero__footer > img {
+        width: 15%;
+    }
+
+    .mob {
+        display: none;
+    }
+}
+
+/* mobile version*/
+@media (max-width: 767px) {
+    .hero {
+        display: grid;
+        background: #004DB3;
+        padding: 30px 0 0 0;
+    }
+
+    .hero__one {
+        padding: 10% 5% 10% 10%;
+        position: relative;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .hero__one__intro {
+        font-family: 'Clash Display', sans-serif;
+        font-size: 32px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        text-align: center;
+    }
+
+    .hero__one__support {
+        font-family: 'Satoshi', sans-serif;
+        font-size: 14px;
+        text-transform: capitalize;
+        color: #E7E7E7;
+        text-align: center;
+    }
+
+    .actions {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .get__started {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        background-color: transparent;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        font-family: 'Satoshi', sans-serif;
+        font-size: 13px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .vector {
+        position: absolute;
+        left: 13%;
+        top: 0;
+        display: none;
+    }
+
+    .yellow-round-two {
+        position: absolute;
+        right: 30%;
+        top: 0;
+        display: none;
+    }
+
+    .zigzag {
+        position: absolute;
+        left: -7%;
+        bottom: 5%;
+    }
+
+    .arrow {
+        display: none;
+    }
+
+    .mobile-arrow {
+        position: absolute;
+        right: 5%;
+        top: 74%;
+    }
+
+    .hero-enrol {
+        display: none;
+    }
+
+    .hero__two {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-image {
+        width: 100%;
+    }
+
+
+    .hero__footer {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        background: #CCDBF0;
+        padding: 20px;
+    }
+
+    .desk {
+        display: none;
+    }
+}
+
+/* desktop version*/
+@media (min-width: 1025px) {
+    .hero {
+        display: grid;
+        grid-template-columns: minmax(auto, 50%) auto;
+        background: #004DB3;
+        padding: 30px 0 0 0;
+    }
+
+    .hero__one {
+        width: inherit;
+        padding: 10% 5% 10% 10%;
+        position: relative;
+    }
+
+    .hero__one__intro {
+        font-family: 'Clash Display', sans-serif;
+        font-size: 60px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .hero__one__support {
+        font-family: 'Satoshi', sans-serif;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #E7E7E7;
+    }
+
+    .actions {
+        display: flex;
+        gap: 10px;
+        margin-bottom: 20px;
+    }
+
+    .get__started {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 2px;
+        background-color: transparent;
+        padding: 16px 32px;
+        width: 216px;
+        height: 54px;
+        border: 1px solid #FFFFFF;
+        border-radius: 4px;
+        font-family: 'Satoshi', sans-serif;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .vector {
+        position: absolute;
+        left: 13%;
+        top: 0;
+    }
+
+    .yellow-round-two {
+        position: absolute;
+        right: 30%;
+        top: 0;
+    }
+
+    .zigzag {
+        position: absolute;
+        left: 0%;
+        right: 96.34%;
+        top: 49%;
+        bottom: 48.93%;
+    }
+
+    .arrow {
+        position: absolute;
+        right: -14%;
+        top: 50%;
+    }
+
+    .hero__two {
+        position: relative;
+        display: flex;
+        justify-content: center;
+        margin: 0;
+        padding: 0;
+    }
+
+    .hero-image {
+        width: 70%;
+    }
+
+    .bulb {
+        position: absolute;
+        width: 200px;
+        height: 200px;
+        left: 5%;
+        top: 3%;
+    }
+
+    .green-big-round {
+        position: absolute;
+        left: 17%;
+        top: 35%;
+    }
+
+    .figma {
+        position: absolute;
+        width: 80px;
+        left: 10%;
+        top: 55%;
+    }
+
+    .yellow-round {
+        position: absolute;
+        left: 16%;
+        bottom: 12.55%;
+    }
+
+    .visual-studio {
+        position: absolute;
+        width: 75px;
+        right: 17%;
+        top: 78.67px;
+    }
+
+    .orange-angle {
+        position: absolute;
+        width: 30px;
+        right: 18%;
+        top: 37.28%;
+    }
+
+    .wordpress {
+        position: absolute;
+        width: 84.24px;
+        right: 17%;
+        bottom: 0;
+    }
+
+    .hero__footer {
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20% 20%;
+        align-items: center;
+        background: #CCDBF0;
+        padding: 30px;
+    }
+
+    .mob {
+        display: none;
+    }
+}

@@ -1,0 +1,351 @@
+    ul {
+        margin: 0;
+        padding: 0;
+    }
+
+    @media (max-width: 768px) {
+        ul {
+            margin: 0;
+        }
+
+        .footer {
+            background: #000F24;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .footer__one {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+        }
+
+        .footer__one__content > p {
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            text-transform: capitalize;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: #FFFFFF;
+        }
+
+        .footer__one__content > ul {
+            padding: 0;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .footer__two,
+        .footer__three {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .footer__two > h2,
+        .footer__three > h2 {
+            margin: 0 0 20px 0;
+            font-family: 'Clash Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+
+        .footer__two > li > a,
+        .footer__three > li > a {
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 20px;
+            line-height: 32px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+
+        .footer__four > h2 {
+            margin: 0;
+            font-family: 'Clash Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: capitalize;
+
+            color: #FFFFFF;
+        }
+
+        .form {
+            display: flex;
+            margin-top: 35px;
+        }
+
+        .input {
+            width: 60%;
+            padding: 16px;
+            background: #2A2A2B;
+            border: 1px solid #054FB3;
+            border-radius: 2px 0px 0px 2px;
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 19px;
+            text-transform: capitalize;
+            color: #424141;
+            outline: none;
+        }
+
+        .form > button {
+            border: none;
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 19px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            background: #054FB3;
+            border-radius: 0px 2px 2px 0px;
+        }
+    }
+
+    @media (min-width: 768px) and (max-width: 1023px) {
+        ul {
+            margin: 0;
+        }
+
+        .footer {
+            background: #000F24;
+            padding: 30px;
+            display: flex;
+            flex-direction: column;
+            gap: 50px;
+        }
+
+        .footer__one {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+        }
+
+        .footer__one__content > p {
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            text-transform: capitalize;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: #FFFFFF;
+        }
+
+        .footer__one__content > ul {
+            padding: 0;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .footer__two,
+        .footer__three {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .footer__two > h2,
+        .footer__three > h2 {
+            margin: 0 0 20px 0;
+            font-family: 'Clash Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+
+        .footer__two > li > a,
+        .footer__three > li > a {
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+
+        .footer__four > h2 {
+            margin: 0;
+            font-family: 'Clash Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: capitalize;
+
+            color: #FFFFFF;
+        }
+
+        .form {
+            display: flex;
+            margin-top: 35px;
+        }
+
+        .input {
+            padding: 16px;
+            background: #2A2A2B;
+            border: 1px solid #054FB3;
+            border-radius: 2px 0px 0px 2px;
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 19px;
+            text-transform: capitalize;
+            color: #424141;
+            outline: none;
+        }
+
+        .form > button {
+            border: none;
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 19px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            background: #054FB3;
+            border-radius: 0px 2px 2px 0px;
+        }
+    }
+
+    @media (min-width: 1024px) {
+        ul {
+            margin: 0;
+        }
+
+        .footer {
+            background: #000F24;
+            display: flex;
+            justify-content: space-around;
+        }
+
+        .footer__one {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+
+        }
+        .footer__one,.footer__two,.footer__three,.footer__four{
+          padding:  30px;
+        }
+
+        .footer__one__content > p {
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 16px;
+            line-height: 22px;
+            text-transform: capitalize;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale;
+            color: #FFFFFF;
+        }
+
+        .footer__one__content > ul {
+            padding: 0;
+            display: flex;
+            gap: 20px;
+            align-items: center;
+        }
+
+        .footer__two,
+        .footer__three {
+            display: flex;
+            flex-direction: column;
+            gap: 20px;
+        }
+
+        .footer__two > h2,
+        .footer__three > h2 {
+            margin: 0 0 20px 0;
+            font-family: 'Clash Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+
+        .footer__two > li > a,
+        .footer__three > li > a {
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 400;
+            font-size: 24px;
+            line-height: 32px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+        }
+
+        .footer__four > h2 {
+            margin: 0;
+            font-family: 'Clash Display';
+            font-style: normal;
+            font-weight: 600;
+            font-size: 32px;
+            line-height: 39px;
+            text-transform: capitalize;
+
+            color: #FFFFFF;
+        }
+
+        .form {
+            display: flex;
+            margin-top: 35px;
+        }
+
+        .input {
+            padding: 16px;
+            background: #2A2A2B;
+            border: 1px solid #054FB3;
+            border-radius: 2px 0px 0px 2px;
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 19px;
+            text-transform: capitalize;
+            color: #424141;
+            outline: none;
+        }
+
+        .form > button {
+            border: none;
+            font-family: 'Satoshi';
+            font-style: normal;
+            font-weight: 500;
+            font-size: 14px;
+            line-height: 19px;
+            text-transform: capitalize;
+            color: #FFFFFF;
+            background: #054FB3;
+            border-radius: 0px 2px 2px 0px;
+        }
+    }
