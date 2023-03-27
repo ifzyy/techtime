@@ -5,7 +5,7 @@ import 'aos/dist/aos.css'
 import '../styles/hero.css'
 const Testimonial = () => {
     useEffect(() => {
-        AOS.init({ duration: 2000 })
+        AOS.init({ duration: 3000 })
     }, [])
     return (
         <div className="testimonial">
