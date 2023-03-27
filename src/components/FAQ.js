@@ -1,4 +1,7 @@
-import React, { useState } from 'react'
+import React, { useState, useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import '../styles/hero.css'
 import '../styles/faq.css'
 const FAQ = () => {
     const [open, setopen] = useState(true);
@@ -9,15 +12,18 @@ const FAQ = () => {
             setopen(true);
         }
     };
+    useEffect(() => {
+        AOS.init({ duration: 2000 })
+    }, [])
     return (
         <div className="faq">
             <img src="images/big-blue.png" alt="" className='big-blue' />
             <img src="images/yellow-zigzag.png" alt="" className='faq-zag' />
             <img src="images/ring-two.png" alt="" className='ring-two' />
             <img src="images/ring-two-again.png" alt="" className='ring-two-again' />
-            <h2>frequently asked questions</h2>
-            <p>high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
-            <ul className="faq__list">
+            <h2 data-aos="zoom-in-up">frequently asked questions</h2>
+            <p data-aos="flip-down">high-defination video is video of higher resolution and quality than standard definition. while there’s no standard meaning for high definition, generally any standard video image</p>
+            <ul className="faq__list" data-aos="zoom-in-up" data-aos-easing="ease-in-sine" data-aos-duration="3000">
                 <li>
                     <div className="space">
                         Is there free trial available?

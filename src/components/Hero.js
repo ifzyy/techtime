@@ -1,10 +1,16 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
 import '../styles/hero.css'
 const Hero = () => {
+
+    useEffect(() => {
+        AOS.init({ duration: 3000 })
+    }, [])
     return (
         <>
-            <div className="hero">
-                <div className="hero__one">
+            <div className="hero" >
+                <div className="hero__one" data-aos="zoom-in-up" data-aos-duration="3000">
                     <h1 className="hero__one__intro">
                         Grow your skills to advance your career path
                     </h1>
@@ -25,11 +31,11 @@ const Hero = () => {
                     <img src="images/arrow.png" alt="" className='arrow' />
                     <img src="images/mobile-arrow.png" alt="" className='mobile-arrow' />
                 </div>
-                <div className="hero__two">
+                <div className="hero__two" data-aos="zoom-in-right">
                     <img src="images/hero-image.png" alt="" className="hero-image" />
                 </div>
             </div>
-            <div className="hero__footer">
+            <div className="hero__footer" data-aos="fade-left">
                <img src="images/Zoom svg.png" alt="" className='desk' />
                <img src="images/stripe.png" alt="" className='desk' />
                <img src="images/monday.com svg.png" alt="" className='desk' />

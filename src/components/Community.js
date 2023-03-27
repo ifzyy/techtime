@@ -1,12 +1,18 @@
-import React from 'react'
+import React, { useEffect } from 'react'
+import AOS from 'aos'
+import 'aos/dist/aos.css'
+import '../styles/hero.css'
 import '../styles/community.css'
 const Community = () => {
+  useEffect(() => {
+    AOS.init({ duration: 2000 })
+  }, [])
   return (
     <div className="community">
-      <p>join our community</p>
-      <h2>are you  ready to connect with the future talent of the tech world</h2>
-      <p className="p-again">meet up with other techstars and grow together</p>
-      <div className='world-image'>
+      <p data-aos="flip-down">join our community</p>
+      <h2 data-aos="zoom-in-up">are you  ready to connect with the future talent of the tech world</h2>
+      <p className="p-again" data-aos="zoom-in-up">meet up with other techstars and grow together</p>
+      <div className='world-image' data-aos="zoom-in-up" data-aos-duration="3000">
         <img src="images/community.png" alt=""  className='desk-community'/>
         <img src="images/mobile-community.png" alt="" className='mobile-community'/>
       </div>

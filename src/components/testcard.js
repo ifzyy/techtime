@@ -10,13 +10,12 @@ import "swiper/css/pagination";
 import { Pagination, Autoplay } from "swiper";
 
 
-
 const Testcard = () => {
     const windowWidth = useRef(window.innerWidth);    
         return (
             <>
                 <Swiper
-                    slidesPerView={windowWidth.current < 768 ? 1 : 2.5}
+                    slidesPerView={windowWidth.current < 1024 ? 1 : 2.5}
                     spaceBetween={30}
                     centeredSlides={true}
                     pagination={{

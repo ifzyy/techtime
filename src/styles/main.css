@@ -10,6 +10,7 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    padding-top: 100px;
   }
 
   .main__one__content {
@@ -140,6 +141,7 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
+    padding-top: 100px;
   }
 
   .main__two__content {
@@ -248,6 +250,9 @@
   .main {
     background: #f8f9fc;
     padding: 40px;
+    display: flex;
+    flex-direction: column;
+    gap: 100px;
   }
 
   .main__one {
@@ -365,8 +370,8 @@
   }
 
   .main__two {
-    display: flex;
-    justify-content: space-between;
+   display: grid;
+   grid-template-columns: 50% 50%;
   }
 
   .main__two__content {
@@ -403,7 +408,7 @@
   }
 
   .main__two__big {
-    width: 95%;
+    width: 100%;
     height: auto;
   }
 
