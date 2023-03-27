@@ -1,11 +1,13 @@
 # TechTime
 
 
->Techtime is a fully responsive website 
+>Techtime is a fully responsive landing page
 
 ## Built With
 
 - Javascript
+- css
+- Bootstrap
 - React js
 - Swiper js git vscode github
 
@@ -20,8 +22,8 @@
 To get a local copy up and running follow these simple example steps.
 
 - Clone the repository or download as zip
-- Run npm install to install all dependencies 
-- Run npm start to start your development server
+- Make sure you have docker installed 
+- Run docker-compose up from the local repo directory
 
 
 
