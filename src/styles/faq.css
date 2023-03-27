@@ -1,0 +1,344 @@
+@media (max-width: 767px) {
+    .faq {
+        margin-bottom: 250px;
+        position: relative;
+    }
+
+    .big-blue {
+        position: absolute;
+        width: 20px;
+        right: 8%;
+        top: 0;
+
+    }
+
+    .faq-zag {
+        position: absolute;
+        left: 0;
+        top: 27%;
+        width: 50px;
+    }
+
+    .ring-two {
+        position: absolute;
+        right: 0;
+        width: 30px;
+    }
+
+    .ring-two-again {
+        position: absolute;
+        left: 0;
+        bottom: -25%;
+        width: 30px;
+    }
+
+    .faq > h2 {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #000F24;
+        margin: 40px 0 10px 0;
+    }
+
+    .faq > p {
+        margin: 0 auto;
+        font-family: 'Satoshi', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #A2A2A2;
+        margin-bottom: 30px;
+        padding: 20px;
+    }
+
+    .faq__list {
+        display: grid;
+        gap: 5%;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .space {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #004DB3;
+    }
+
+    .faq__list__item {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 18px;
+        line-height: 32px;
+        text-transform: capitalize;
+        padding: 20px;
+        color: #000F24;
+        border-bottom: 1px solid #EAEAEA;
+    }
+
+    .open {
+        font-family: 'Satoshi';
+        padding: 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 13px;
+        line-height: 26px;
+        text-transform: capitalize;
+        color: #A2A2A2;
+    }
+
+    .opened {
+        font-size: 30px;
+    }
+
+    .faq_button {
+        color: #000F24;
+        background-color: #FFFFFF;
+        border: none;
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .faq {
+        margin-bottom: 250px;
+        position: relative;
+        padding: 20px;
+    }
+
+    .big-blue {
+        position: absolute;
+        right: 10%;
+        top: 7%;
+
+    }
+
+    .faq-zag {
+        position: absolute;
+        left: 0;
+        top: 27%;
+    }
+
+    .ring-two {
+        position: absolute;
+        right: 0;
+        width: 50px;
+    }
+
+    .ring-two-again {
+        position: absolute;
+        left: 0;
+        bottom: -25%;
+        width: 50px;
+    }
+
+    .faq > h2 {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 69px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #000F24;
+        margin: 40px 0 10px 0;
+    }
+
+    .faq > p {
+        margin: 0 auto;
+        font-family: 'Satoshi', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 15px;
+        padding: 20px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #A2A2A2;
+        margin-bottom: 30px;
+    }
+
+    .faq__list {
+        display: grid;
+        gap: 5%;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .space {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #004DB3;
+    }
+
+    .faq__list__item {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-transform: capitalize;
+        padding: 20px;
+        color: #000F24;
+        border-bottom: 1px solid #EAEAEA;
+    }
+
+    .open {
+        font-family: 'Satoshi';
+        padding: 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: capitalize;
+        color: #A2A2A2;
+    }
+
+    .opened {
+        font-size: 30px;
+    }
+
+    .faq_button {
+        color: #000F24;
+        background-color: #FFFFFF;
+        border: none;
+        font-size: 24px;
+    }
+}
+
+@media (min-width: 1024px) {
+    .faq {
+        margin-bottom: 250px;
+        position: relative;
+    }
+
+    .big-blue {
+        position: absolute;
+        right: 14.48%;
+        top: 10.13%;
+
+    }
+
+    .faq-zag {
+        position: absolute;
+        left: 0;
+        top: 27%;
+    }
+
+    .ring-two {
+        position: absolute;
+        right: 0;
+    }
+
+    .ring-two-again {
+        position: absolute;
+        left: 0;
+        bottom: -25%;
+    }
+
+    .faq > h2 {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 69px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #000F24;
+        margin: 40px 0 10px 0;
+    }
+
+    .faq > p {
+        margin: 0 auto;
+        width: 50%;
+        font-family: 'Satoshi', sans-serif;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #A2A2A2;
+        margin-bottom: 30px;
+    }
+
+    .faq__list {
+        display: grid;
+        gap: 5%;
+        width: 70%;
+        margin: 0 auto;
+    }
+
+    .space {
+        padding: 20px;
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-transform: capitalize;
+        color: #004DB3;
+    }
+
+    .faq__list__item {
+        display: flex;
+        justify-content: space-between;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 900;
+        font-size: 24px;
+        line-height: 32px;
+        text-transform: capitalize;
+        padding: 20px;
+        color: #000F24;
+        border-bottom: 1px solid #EAEAEA;
+    }
+
+    .open {
+        font-family: 'Satoshi';
+        padding: 20px;
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 26px;
+        text-transform: capitalize;
+        color: #A2A2A2;
+    }
+
+    .opened {
+        font-size: 30px;
+    }
+
+    .faq_button {
+        color: #000F24;
+        background-color: #FFFFFF;
+        border: none;
+        font-size: 24px;
+    }
+}

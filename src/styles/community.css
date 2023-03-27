@@ -1,0 +1,247 @@
+@media (max-width: 767px) {
+    .community {
+        background: #004DB3;
+        padding-bottom: 50px;
+    }
+
+    .community > p {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .community > h2 {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        text-align: center;
+
+        margin: 0 auto;
+    }
+
+    .p-again {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .world-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .world-image > :nth-child(2) {
+        width: 100%;
+    }
+
+    .world-image > :first-child {
+        display: none;
+    }
+
+    .join {
+        padding: 16px 25px;
+        gap: 10px;
+        background: #FFFFFF;
+        border: none;
+        display: grid;
+        justify-content: center;
+        border-radius: 4px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        margin: 0 auto;
+        color: #004DB3;
+        transition: all 0.5s ease-out;
+        background: linear-gradient(to right, #004DB3 50%, white 50%);
+        background-size: 200% 100%;
+        background-position: right;
+    }
+
+    .join:hover {
+        background-position: left;
+        color: white;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .world-image > :nth-child(2) {
+        display: none;
+    }
+
+    .community {
+        background: #004DB3;
+        padding: 60px;
+    }
+
+    .community > p {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .community > h2 {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 35px;
+        line-height: 69px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        text-align: center;
+        margin: 0 auto;
+    }
+
+    .p-again {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .world-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .world-image > :first-child {
+        width: 100%;
+    }
+
+    .join {
+        padding: 16px 32px;
+        gap: 10px;
+        background: #FFFFFF;
+        border: none;
+        display: grid;
+        justify-content: center;
+        border-radius: 4px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        margin: 0 auto;
+        color: #004DB3;
+    }
+}
+
+
+@media (min-width: 1024px) {
+    .world-image > :nth-child(2) {
+        display: none;
+    }
+
+    .community {
+        background: #004DB3;
+        padding: 60px;
+    }
+
+    .community > p {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 18px;
+        line-height: 22px;
+        letter-spacing: 0.1em;
+        text-transform: uppercase;
+        color: #FFFFFF;
+        text-align: center;
+        padding-top: 50px;
+    }
+
+    .community > h2 {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        line-height: 69px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        text-align: center;
+        width: 60%;
+        margin: 0 auto;
+    }
+
+    .p-again {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 22px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+
+    .world-image {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-bottom: 40px;
+    }
+
+    .join {
+        padding: 16px 32px;
+        gap: 10px;
+        background: #FFFFFF;
+        border: 4px solid white;
+        display: grid;
+        justify-content: center;
+        border-radius: 4px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        margin: 0 auto;
+        color: #004DB3;
+        transition: all 0.5s ease-out;
+        background: linear-gradient(to right, #004DB3 50%, white 50%);
+        background-size: 200% 100%;
+        background-position: right;
+    }
+
+    .join:hover {
+        background-position: left;
+        color: white;
+    }
+}
