@@ -10,7 +10,7 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   .main__one__content {
@@ -141,7 +141,7 @@
     flex-direction: column;
     align-items: center;
     gap: 30px;
-    padding-top: 100px;
+    padding-top: 50px;
   }
 
   .main__two__content {
