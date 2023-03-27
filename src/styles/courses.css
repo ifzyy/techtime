@@ -1,0 +1,568 @@
+@media (min-width: 1024px) {
+    .courses {
+        background: #f8f9fc;
+        padding: 50px;
+        position: relative;
+    }
+
+    .cross {
+        position: absolute;
+        left: 9.49%;
+        top: 12.2%;
+    }
+
+    .courses > h2 {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #000F24;
+        margin: 0;
+    }
+
+    .courses > p {
+        margin: 0 auto;
+        width: 40%;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #A2A2A2;
+    }
+
+    .courses__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        margin-top: 50px;
+    }
+
+    .courses__nav > li > a {
+        padding: 12px 16px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #004DB3;
+    }
+
+    .courses__nav > a {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #A1A1A1;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 35% 35% 35%;
+        grid-gap: 40px;
+        justify-content: center;
+        padding: 5%;
+    }
+
+    .card {
+        background: #FFFFFF;
+        border-radius: 16px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card__image > img {
+        width: 100%;
+    }
+
+    .card__tag {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .design {
+        padding: 4px 20px;
+        background: rgba(30, 93, 206, 0.2);
+        border-radius: 16px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #1E5DCE;
+    }
+
+    .views {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #A1A1A1;
+    }
+
+    .card__head {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #000F24;
+
+    }
+
+    .card__details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .time,
+    .lessons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card__price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #000000;
+        padding: 0;
+    }
+
+    .price {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        text-transform: capitalize;
+        color: #004DB3;
+
+    }
+
+    .explore {
+        margin: 40px auto 0 auto;
+        display: grid;
+        justify-content: center;
+        padding: 16px 32px;
+        border: none;
+        background: #004DB3;
+        border-radius: 4px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+        transition: all 0.5s ease-out;
+        background: linear-gradient(to right, white 50%, blue 50%);
+        background-size: 200% 100%;
+        background-position: right;
+    }
+    .explore:hover{
+        background-position: left;
+        color: blue;
+    }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+    .courses {
+        background: #f8f9fc;
+        padding: 50px;
+        position: relative;
+    }
+
+    .cross {
+        position: absolute;
+        left: 9.49%;
+        top: 12.2%;
+    }
+
+    .courses > h2 {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 56px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #000F24;
+        margin: 0;
+    }
+
+    .courses > p {
+        margin: 0 auto;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #A2A2A2;
+    }
+
+    .courses__nav {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        gap: 5%;
+        margin-top: 50px;
+    }
+
+    .courses__nav > li > a {
+        padding: 12px 16px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #004DB3;
+    }
+
+    .courses__nav > a {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        text-transform: capitalize;
+        color: #A1A1A1;
+    }
+
+    .cards {
+        display: grid;
+        grid-template-columns: 350px 350px;
+        grid-gap: 40px;
+        justify-content: center;
+        padding: 55px;
+    }
+
+    .card {
+        background: #FFFFFF;
+        border-radius: 16px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card__image > img {
+        width: 100%;
+    }
+
+    .card__tag {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .design {
+        padding: 4px 20px;
+        background: rgba(30, 93, 206, 0.2);
+        border-radius: 16px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #1E5DCE;
+    }
+
+    .views {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #A1A1A1;
+    }
+
+    .card__head {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #000F24;
+
+    }
+
+    .card__details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .time,
+    .lessons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card__price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #000000;
+        padding: 0;
+    }
+
+    .price {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        text-transform: capitalize;
+        color: #004DB3;
+
+    }
+
+    .explore {
+        margin: 40px auto 0 auto;
+        display: grid;
+        justify-content: center;
+        padding: 16px 32px;
+        border: none;
+        background: #004DB3;
+        border-radius: 4px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+}
+
+/* mobile version */
+
+@media (max-width:767px) {
+    .courses {
+        background: #f8f9fc;
+        padding: 20px;
+        position: relative;
+        padding-bottom: 50px;
+    }
+
+    .cross {
+        position: absolute;
+        left: 9.49%;
+        top: 0%;
+    }
+
+    .courses > h2 {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 30px;
+        text-transform: capitalize;
+        text-align: center;
+        color: #000F24;
+        margin: 0;
+    }
+
+    .courses > p {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 14px;
+        line-height: 28px;
+        text-align: center;
+        text-transform: capitalize;
+        color: #A2A2A2;
+    }
+
+    .courses__nav {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 10px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        padding: 0;
+    }
+
+    .courses__nav > li > a {
+        padding: 12px 16px;
+        background: #FFFFFF;
+        border-radius: 4px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: capitalize;
+        color: #004DB3;
+    }
+
+    .courses__nav > a {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        text-transform: capitalize;
+        color: #A1A1A1;
+    }
+
+    .cards {
+        display: grid;
+        grid-gap: 40px;
+        justify-content: center;
+    }
+
+    .card {
+        background: #FFFFFF;
+        border-radius: 16px;
+        padding: 20px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    .card__image > img {
+        width: 100%;
+    }
+
+    .card__tag {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    .design {
+        padding: 4px 20px;
+        background: rgba(30, 93, 206, 0.2);
+        border-radius: 16px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #1E5DCE;
+    }
+
+    .views {
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 16px;
+        text-transform: capitalize;
+        color: #A1A1A1;
+    }
+
+    .card__head {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 24px;
+        line-height: 30px;
+        text-transform: capitalize;
+        color: #000F24;
+
+    }
+
+    .card__details {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+
+    }
+
+    .time,
+    .lessons {
+        display: flex;
+        justify-content: center;
+    }
+
+    .card__price {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding-top: 20px;
+    }
+
+    .profile {
+        display: flex;
+        align-items: center;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #000000;
+        padding: 0;
+    }
+
+    .price {
+        font-family: 'Clash Display';
+        font-style: normal;
+        font-weight: 600;
+        font-size: 20px;
+        line-height: 25px;
+        text-transform: capitalize;
+        color: #004DB3;
+
+    }
+
+    .explore {
+        margin: 40px auto 0 auto;
+        display: grid;
+        justify-content: center;
+        padding: 16px 32px;
+        border: none;
+        background: #004DB3;
+        border-radius: 4px;
+        font-family: 'Satoshi';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 16px;
+        line-height: 22px;
+        text-transform: capitalize;
+        color: #FFFFFF;
+    }
+}
